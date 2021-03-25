@@ -1,5 +1,18 @@
-* Stumpwm-Prescient 
+* stumpwm-prescient
+
+[[https://github.com/raxod502/prescient.el][Prescient]] for stumpwm. Simple but effective sorting and filtering for stumpwm inputs.
+
+** Installation
+
+#+begin_src sh
+git clone github.com/landakram/stumpwm-prescient ~/quicklisp/local-projects
+#+end_src
 
 ** Usage
 
-** Installation
+In your stumpwm config:
+
+#+begin_src lisp
+(ql:quickload :stumpwm-prescient)
+(setf *input-refine-candidates-fn* 'stumpwm-prescient:refine-input)
+#+end_src
