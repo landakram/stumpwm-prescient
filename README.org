@@ -2,6 +2,8 @@
 
 [[https://github.com/raxod502/prescient.el][Prescient]] for stumpwm. Simple but effective sorting and filtering for stumpwm inputs.
 
+[[./images/screencast.gif]]
+
 ** Installation
 
 #+begin_src sh
